@@ -1,0 +1,7 @@
+* text=auto
+
+# Shell scripts must keep LF line endings (shebang breaks with CRLF)
+*.sh text eol=lf
+
+# Windows batch files keep CRLF
+*.bat text eol=crlf
