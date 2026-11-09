@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "书签同步 · Bookmark Sync",
+  "version": "1.0.0",
+  "description": "把本浏览器书签同步到本机服务，并在多个浏览器之间保持一致。数据只走 127.0.0.1，不经云端。",
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8765/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "书签同步"
+  }
+}

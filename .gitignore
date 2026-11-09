@@ -1,0 +1,21 @@
+# Runtime data (contains real bookmarks - never commit)
+data/
+config.json
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Backups
+*.bak
+*.tmp

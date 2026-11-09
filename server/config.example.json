@@ -1,0 +1,7 @@
+{
+  "port": 8765,
+  "keep_days": 14,
+  "guard_interval": 4,
+  "auto_discover": true,
+  "guard_targets": []
+}
